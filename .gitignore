@@ -1,0 +1,14 @@
+build/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+results_nlp_only/
+results_nlp_noL2/
+results_nlp_ui/
+auto_trajectory.txt
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
