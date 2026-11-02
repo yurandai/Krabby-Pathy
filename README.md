@@ -1,3 +1,5 @@
+# Note: The current version available is v1.0.0. Newer releases' source code will not exposed from now on due to academic reasons. Exact releasing date is still uncertain. Sorry for the inconvenience.
+
 # Krabby Pathy
 
 An A*-guided two-stage nonlinear trajectory optimization framework for
