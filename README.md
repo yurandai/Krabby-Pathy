@@ -1,4 +1,4 @@
-# Note: The current version available is v1.0.0. Newer releases' source code will not exposed from now on due to academic reasons. Exact releasing date is still uncertain. Sorry for the inconvenience.
+# Note: The current source code available above is v1.0.0. Newer releases' source code will not exposed from now on due to academic reasons. Exact releasing date is still uncertain. Sorry for the inconvenience.
 
 # Krabby Pathy
 
@@ -29,18 +29,8 @@ optimization.
 ## Download (for FTC/FRC teams)
 
 1. Go to the [Releases](../../releases) page.
-2. Download the latest `KrabbyPathy.exe`.
+2. Download the latest `KrabbyPathy.exe` or `KrabbyPathy.app`.
 3. Run it. Windows may show a SmartScreen warning ("Windows protected
-   your PC") — click **More info** → **Run anyway**. This is expected for
+   your PC") — click **More info** → **Run anyway**. For Mac, run the command ```xattr -c (app location) && codesign --force --deep --sign - (app location)``` in order to open the app. This is expected for
    unsigned apps.
-4. No installation required. No Python required.
-
-## Running From Source (for developers)
-
-**Requirements:** Python 3.10–3.12, Windows / macOS / Linux.
-
-```bash
-git clone https://github.com/<your-username>/krabby-pathy.git
-cd krabby-pathy
-pip install -r requirements.txt
-python main.py
+5. No installation required. No Python required.
